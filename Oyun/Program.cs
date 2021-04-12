@@ -49,8 +49,9 @@ namespace Oyun
 
             CampaignManager campaignManager = new CampaignManager();
             campaignManager.Add(campaign);
-
-            Console.WriteLine("-----------------------------------------------------");
+            Console.WriteLine();
+            Console.WriteLine("------------------------- S A T I Ş ----------------------------");
+            Console.WriteLine();
 
             SalesManager salesManager = new SalesManager();
             salesManager.SalesGame(gamer1, game1, campaign);
